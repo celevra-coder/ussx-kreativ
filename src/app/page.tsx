@@ -290,6 +290,16 @@ export default function Home() {
 
     <div className="footer-column footer-action">
       <span className="footer-title">Интересувате се от текстилните тухли?</span>
+      <a
+        className="facebook-button"
+        href="https://www.facebook.com/profile.php?id=61591372162296"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="USS X KREATIV във Facebook"
+      >
+        <span className="facebook-button__icon">f</span>
+        Facebook
+      </a>
       <p>Изпратете ни конкретно запитване.</p>
       <a className="footer-cta" href="#contact">
         Изпрати запитване ↗

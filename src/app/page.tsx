@@ -274,7 +274,7 @@ export default function Home() {
       <span className="footer-title">Контакти</span>
 
       <a href="tel:+359878881815">0878 881 815</a>
-      <a href="mailto:office@ussone.com">office@ussone.com</a>
+      <a href="mailto:oficeussxsolar@abv.bg">oficeussxsolar@abv.bg</a>
       <span>Пловдив, ул. Христо Ботев 27А</span>
       <span>Производствена база: Габрово, ул. Никола Войновски 8</span>
     </div>

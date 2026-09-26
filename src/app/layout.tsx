@@ -15,13 +15,17 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ussxcreative.com"),
+
   title: "USS X KREATIV | Текстилни тухли от рециклиран текстил",
 
-  description: "Текстилни тухли и декоративни стенни решения от рециклиран текстил за интериор, дизайн и архитектура.",
+  description:
+    "Текстилни тухли и декоративни стенни решения от рециклиран текстил за интериор, дизайн и архитектура.",
 
   openGraph: {
     title: "USS X KREATIV | Текстилни тухли от рециклиран текстил",
-    description: "Текстилни тухли и декоративни стенни решения от рециклиран текстил за интериор, дизайн и архитектура.",
+    description:
+      "Текстилни тухли и декоративни стенни решения от рециклиран текстил за интериор, дизайн и архитектура.",
     siteName: "USS X KREATIV",
     locale: "bg_BG",
     type: "website",
@@ -38,7 +42,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "USS X KREATIV | Текстилни тухли от рециклиран текстил",
-    description: "Текстилни тухли и декоративни стенни решения от рециклиран текстил за интериор, дизайн и архитектура.",
+    description:
+      "Текстилни тухли и декоративни стенни решения от рециклиран текстил за интериор, дизайн и архитектура.",
     images: ["/social-preview"],
   },
 };

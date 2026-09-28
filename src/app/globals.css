@@ -5123,3 +5123,34 @@ html[data-theme="light"] .phone-circle:hover {
   font-size: 15px;
   font-weight: 700;
 }
+
+/* ===== USS X KREATIV approved logo ===== */
+
+.ussx-logo__image {
+  display: block;
+  width: auto;
+  height: 58px;
+  object-fit: contain;
+}
+
+.header-scrolled .ussx-logo__image {
+  height: 50px;
+}
+
+.ussx-logo--footer .ussx-logo__image {
+  height: 74px;
+}
+
+@media (max-width: 720px) {
+  .ussx-logo__image {
+    height: 46px;
+  }
+
+  .header-scrolled .ussx-logo__image {
+    height: 42px;
+  }
+
+  .ussx-logo--footer .ussx-logo__image {
+    height: 62px;
+  }
+}

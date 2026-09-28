@@ -5154,3 +5154,81 @@ html[data-theme="light"] .phone-circle:hover {
     height: 62px;
   }
 }
+
+/* ===== USS X KREATIV round brand mark ===== */
+
+.ussx-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ussx-logo__round {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(215, 175, 71, 0.9);
+  box-shadow:
+    0 4px 16px rgba(23, 50, 79, 0.18),
+    0 0 0 4px rgba(255, 255, 255, 0.45);
+  background: #ffffff;
+}
+
+.ussx-logo__round img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ussx-logo__type {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.ussx-logo__type strong {
+  font-size: 1.15rem;
+  letter-spacing: 0.13em;
+}
+
+.ussx-logo__type small {
+  margin-top: 5px;
+  font-size: 0.62rem;
+  letter-spacing: 0.32em;
+  color: #7188a1;
+}
+
+.header-scrolled .ussx-logo__round {
+  width: 50px;
+  height: 50px;
+  flex-basis: 50px;
+}
+
+.ussx-logo--footer .ussx-logo__round {
+  width: 72px;
+  height: 72px;
+  flex-basis: 72px;
+}
+
+@media (max-width: 720px) {
+  .ussx-logo {
+    gap: 8px;
+  }
+
+  .ussx-logo__round {
+    width: 46px;
+    height: 46px;
+    flex-basis: 46px;
+  }
+
+  .ussx-logo__type strong {
+    font-size: 0.95rem;
+  }
+
+  .ussx-logo__type small {
+    font-size: 0.55rem;
+  }
+}

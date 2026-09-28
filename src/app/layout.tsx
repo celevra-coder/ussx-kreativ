@@ -17,6 +17,12 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ussxcreative.com"),
 
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
+
   title: "USS X KREATIV | Текстилни тухли от рециклиран текстил",
 
   description:

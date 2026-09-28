@@ -11,11 +11,6 @@ export default function Logo({ footer = false }: LogoProps) {
           alt="USS X KREATIV"
         />
       </span>
-
-      <span className="ussx-logo__type">
-        <strong>USS X</strong>
-        <small>KREATIV</small>
-      </span>
     </span>
   );
 }

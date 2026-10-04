@@ -292,7 +292,7 @@ export default function Home() {
       <span className="footer-title">Интересувате се от текстилните тухли?</span>
       <a
         className="facebook-button"
-        href="https://www.facebook.com/profile.php?id=61591372162296"
+        href="https://www.facebook.com/groups/1319934609193592/?ref=share&rdid=tvH1OAnR7JcJ7XyM&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F18mhDgFoso%2F#"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="USS X KREATIV във Facebook"
